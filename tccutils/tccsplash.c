@@ -45,6 +45,9 @@ main(int argc, char *argv[])
 	if (argc != 4) {
 		fprintf(stderr, "usage: %s lk.rom rgb565le.raw lknew.rom\n",
 		    argv[0]);
+		fprintf(stderr, "NB: This tool with not work will all devices\n");
+		fprintf(stderr, "MOST DEVICES WILL BE BRICKED AND UNUSABLE\n");
+		fprintf(stderr, "IF YOU FLASH THE RESULTING LK.ROM\n");
 		exit(EXIT_FAILURE);
 	}
 
